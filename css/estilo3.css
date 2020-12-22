@@ -1,0 +1,233 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Syne Mono', monospace;
+	background-color: #57FF8A;
+
+}
+
+#uno{
+	background-color: #57FF8A;
+}
+
+#uno a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+
+#uno li{
+	list-style: none
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.contenedor{	
+
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+.logo-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#uno nav ul {
+	display: flex;
+}
+#uno nav ul li {
+	margin: 0 20px;
+}
+#uno nav ul li, a {
+	color: black;
+	font-size: 20px;
+}
+
+
+#uno #colores {
+	color: blue;
+}
+
+#uno .boton a{
+	background-color: #0B2EBC;
+	color:white;
+	border-radius: 10px;
+	padding: 10px 30px;
+
+}
+
+
+#uno .botones a{
+	font-family: "Consolas", monospace;
+	background: blue;
+	padding: 10px 30px;
+	
+	border-radius: 10px;
+}
+
+
+
+
+.tres nav ul li{
+	list-style-type: none;
+	font-size: 2em;
+	padding: 15px 2.5%;
+}
+
+.tres nav ul li:not(:first-child){
+	border-bottom: solid 1px #aaa;
+	clear:both;
+}
+
+.tres nav ul li:first-child{
+	float:right;
+}
+#navprinc{
+
+
+	background-color: #57FF8A;
+	background-size: cover;
+	position: relative;
+	z-index: 2;
+}
+.navdesp li:not(:first-child){
+	color: #eee;
+	font-family: serif;
+	cursor: pointer;
+	transition: all 0.5;
+
+}
+
+.navdesp li:first-child{
+	color: black;
+	cursor: pointer;
+}
+
+.navdesp li:not(:first-child):hover{
+	background: rgba(200,200,200,0.3);
+	padding:15px 4%;
+}
+
+
+div#tope{
+	height:60px;
+	display: none;
+}
+
+
+
+
+#video, video{
+	position: relative;
+	left: 20px;
+	width: 690px;
+	height: 390px;
+
+}
+
+#biografia{
+	margin: 0 auto;
+	padding: 60px 0;
+	color: white;
+	background-size: cover;
+}
+
+h4{
+	color:blue;
+	border:2px solid blue;
+	border-radius: 20px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+#biografia .contenedor2{
+	display: flex;
+	width: 90%;
+	max-width: 1500px;
+	margin: auto;
+	align-items: center;
+
+}
+
+#biografia span{
+	color: blue;
+	text-decoration: underline;
+}
+#biografia h2{
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+#biografia p{
+	font-size: 15px;
+	text-align: justify;
+	width: 93%;
+	color: black;
+}
+
+#biografia a{
+	position: relative;
+	color: white;
+	top: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+#biografia img{
+	position: relative;
+	top:20px;
+	height:200px; 
+	width:200px;
+	border-radius: 30px;
+}
+
+#redes img{
+	position: relative;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	left: 800px;
+}
+
+#maps img{
+
+	position: relative;
+	height: 20px;
+	width: 20px;
+	top: 1px;
+	left: 1px;
+}
+
+.ga{
+	position: relative;
+	font-size: 15px;
+	color: #25527b;
+	top: -10px;
+	left: 815px;
+}
+
+.mapa{
+	position: relative;
+	width: 100%;
+	top: 170px;
+
+}
+
+.ver{
+	position: relative;
+	color: #25527b;
+	left: 635px;
+	top: 50px;
+}
